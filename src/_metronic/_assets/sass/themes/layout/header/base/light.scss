@@ -25,7 +25,7 @@ $topbar-shadow-mobile: 0px 0px 40px 0px rgba(82,63,105, 0.2);
 
 		// Fixed header
 		.header-fixed & {
-			box-shadow: $header-shadow;
+			box-shadow: none;
 		}
 
 		// Menu

@@ -104,7 +104,7 @@ export function getInitLayoutConfig() {
       }
     },
     subheader: {
-      display: true,
+      display: false,
       displayDesc: false,
       displayDaterangepicker: true,
       layout: "subheader-v1",
@@ -114,7 +114,7 @@ export function getInitLayoutConfig() {
       style: "solid" // solid/transparent
     },
     content: {
-      width: "fixed" // fluid|fixed
+      width: "fluid" // fluid|fixed
     },
     brand: {
       self: {
@@ -124,7 +124,7 @@ export function getInitLayoutConfig() {
     aside: {
       self: {
         theme: "dark", // light/dark
-        display: true,
+        display: false,
         fixed: true,
         minimize: {
           toggle: true, // allow toggle
@@ -158,7 +158,7 @@ export function getInitLayoutConfig() {
     },
     extras: {
       search: {
-        display: true,
+        display: false,
         layout: "dropdown", // offcanvas, dropdown
         offcanvas: {
           direction: "right"
@@ -175,7 +175,7 @@ export function getInitLayoutConfig() {
         }
       },
       "quick-actions": {
-        display: true,
+        display: false,
         layout: "dropdown", // offcanvas, dropdown,
         dropdown: {
           style: "dark", // light, dark
@@ -186,7 +186,7 @@ export function getInitLayoutConfig() {
       },
       user: {
         display: true,
-        layout: "offcanvas", // offcanvas, dropdown
+        layout: "dropdown", // offcanvas, dropdown
         dropdown: {
           style: "dark"
         },
@@ -204,7 +204,7 @@ export function getInitLayoutConfig() {
         }
       },
       "quick-panel": {
-        display: true,
+        display: false,
         offcanvas: {
           directions: "right"
         }
