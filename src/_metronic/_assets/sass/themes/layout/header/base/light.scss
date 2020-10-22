@@ -22,7 +22,7 @@ $topbar-shadow-mobile: 0px 0px 40px 0px rgba(82,63,105, 0.2);
 @include media-breakpoint-up(lg) {
 	.header {
 		background-color: $header-bg;
-
+		border-bottom: 1px #d8d8d8 solid;
 		// Fixed header
 		.header-fixed & {
 			box-shadow: none;
